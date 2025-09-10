@@ -1,0 +1,98 @@
+body {
+    /* background-color: #ffd7d7; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.header__title {
+    font-size: 28px;
+
+}
+
+.header__subtitle {
+    color: rgb(255, 0, 0);
+}
+
+main {
+    text-align: center;
+}
+
+.skills ol {
+    /*.skills > ol - стили применяются на первый ol, а без >, то это распространяется на все ol, которые находятся внутри элемента с классом skills*/
+    list-style: none;
+    /*стиль для списка*/
+}
+
+.separator {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.video iframe {
+    width: 800px;
+    height: 490px;
+    border: none;
+}
+
+.hobbies ol {
+    list-style: none;
+}
+
+.education__table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.education__table th, .education__table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.quote {
+    font-size: 32px;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form__control {
+    width: 100%;
+}
+
+fieldset {
+    border: 1px solid black;
+}
+
+
+.control--text {
+    width: 70%;
+}
+
+.form__submit {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: #ff9797;
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: #000;
+}
